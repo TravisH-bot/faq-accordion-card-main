@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  /* Font - 400, 700 */
+  --font: "Kumbh Sans", sans-serif;
+
+  /* Primary Colors - Text */
+  --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+
+  /* Gradient - Background */
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Neutral - Text */
+  --very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --dark-grayish-blue: hsl(240, 6%, 50%);
+
+  /* Dividers */
+  --light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+body {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    var(--soft-violet) 0%,
+    var(--soft-blue) 100%
+  );
+}
+
+.main-container {
+  margin: 0 auto;
+}
+
+.faq-wrapper {
+  display: flex;
+  width: 62em;
+  height: 32em;
+
+  justify-content: space-evenly;
+  border-radius: 1.8em;
+  background-color: var(--white);
+}
+
+.graphics {
+  width: 31em;
+  overflow: hidden;
+}
+
+.woman {
+  transform: translate(-5em, -55em);
+}
+
+.orange-box {
+  width: 12em;
+  height: 12em;
+  transform: translate(-30.8em, 12.4em);
+}
+
+/* .orange-box {
+  position: absolute;
+  background-image: url("./images/illustration-box-desktop.svg");
+  width: 62em;
+  height: 32em;
+  background-repeat: no-repeat;
+  background-position: left -4.9vw top 21.5vh;
+} */
+
+/* .box {
+  transform: translate(-5.7em, -69.8em);
+} */
+
+.bg-pattern {
+  transform: translate(-36em, -18em);
+}
+
+/* .faq-graphic-one {
+  display: flex;
+  width: 32em;
+  height: 32em;
+  background-image: url("./images/illustration-woman-online-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right 6.3vw bottom 8vh;
+  z-index: 2;
+}
+
+img {
+  width: 12em;
+  height: 12em;
+  transform: translate(-5.8em, 13em);
+}
+
+.faq-graphic-two {
+  width: 32em;
+  height: 36em;
+  background-image: url("./images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right 2em bottom 3em;
+  background-position: initial;
+} */
+
+.faq-card {
+  flex-direction: column;
+  width: 31em;
+  display: flex;
+  justify-content: center;
+
+  z-index: 1;
+}

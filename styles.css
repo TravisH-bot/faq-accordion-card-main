@@ -196,12 +196,12 @@ ul {
   }
 
   .woman-mobile {
-    transform: translate(0rem, -12.8rem);
+    transform: translate(0rem, -14.5rem);
   }
 
-  .bg-pattern-mobile {
-    transform: translate(0rem, 1rem);
-  }
+  /* .bg-pattern-mobile {
+    transform: translate(0rem, 0rem);
+  } */
 
   .faq-card {
     flex-direction: column;
